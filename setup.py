@@ -5,12 +5,12 @@ import os
 here = os.path.abspath(os.path.dirname(__file__))
 
 VERSION = '0.0.1'
-DESCRIPTION = 'Mixshift analysis'
-LONG_DESCRIPTION = 'A package that helps in understanding the changes in the metrics over the period/between the groups using mixshift analysis'
+DESCRIPTION = 'Mixed effects analysis'
+LONG_DESCRIPTION = 'A package that helps in understanding the changes in the metrics over the period/between the groups using mixed effect analysis'
 
 # Setting up
 setup(
-    name="mixshift",
+    name="mixed_effect",
     version=VERSION,
     author="Vinoth Loganathan",
     author_email="<vinothloganathan@outlook.com>",
@@ -19,9 +19,9 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[],
-    py_modules=["mixshift"],             # Name of the python package
-    package_dir={'':'mixshift/src'},     # Directory of the source code of the package
-    keywords=['python', 'mixshift', 'KPI', 'month', 'mom', 'yoy','wow','mix effects'],
+    py_modules=["mixed_effect"],             # Name of the python package
+    package_dir={'':'mixed_effect/src'},     # Directory of the source code of the package
+    keywords=['python', 'KPI', 'month', 'mom', 'yoy','wow','mix effects'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
