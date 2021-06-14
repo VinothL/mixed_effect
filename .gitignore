@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 #DSStore files
-mixshift/.DS_Store
+mixed_effect/.DS_Store

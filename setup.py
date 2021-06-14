@@ -21,7 +21,7 @@ setup(
     install_requires=[],
     py_modules=["mixshift"],             # Name of the python package
     package_dir={'':'mixshift/src'},     # Directory of the source code of the package
-    keywords=['python', 'mixshift', 'KPI', 'month', 'mom', 'yoy','wow'],
+    keywords=['python', 'mixshift', 'KPI', 'month', 'mom', 'yoy','wow','mix effects'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
